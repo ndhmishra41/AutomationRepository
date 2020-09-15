@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="154.332348">
+<testcase classname="Blazedemo application" name="Validate Blazedemo flight booking" time="154.332348">
+<system-out><![CDATA[Given user launch Blazedemo site............................................passed
+Then user enters departure "Philadelphia" and destination city"Rome"........passed
+Then user clicks on Find Flight.............................................passed
+Then user clicks Choose This Flight for "234"...............................passed
+Then user enters details....................................................passed
+Then user clicks on purchase flight.........................................passed
+Then validate confirmation id on Confirmation Page..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

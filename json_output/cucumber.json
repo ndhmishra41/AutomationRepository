@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 34,
+        "name": "Validate Blazedemo flight booking",
+        "description": "",
+        "id": "blazedemo-application;validate-blazedemo-flight-booking;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7710306303,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user launch Blazedemo site",
+            "match": {
+              "location": "FlightbookingPageSteps.user_launch_Blazedemo_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90413189332,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters departure \"Philadelphia\" and destination city\"Rome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Philadelphia",
+                  "offset": 23
+                },
+                {
+                  "val": "Rome",
+                  "offset": 58
+                }
+              ],
+              "location": "FlightbookingPageSteps.user_enters_departure_and_destination_city(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 605278052,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on Find Flight",
+            "match": {
+              "location": "FlightbookingPageSteps.user_clicks_on_Find_Flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20925373042,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks Choose This Flight for \"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "234",
+                  "offset": 36
+                }
+              ],
+              "location": "FlightbookingPageSteps.user_clicks_Choose_This_Flight_for(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33992363027,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters details",
+            "match": {
+              "location": "FlightbookingPageSteps.user_enters_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Address",
+                  "City",
+                  "State",
+                  "ZipCode",
+                  "CardType",
+                  "CardNo",
+                  "Month",
+                  "Year",
+                  "NameOnCard"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "Test",
+                  "123 street",
+                  "Manhattan",
+                  "NY",
+                  "10001",
+                  "visa",
+                  "400000000002",
+                  "11",
+                  "2022",
+                  "Test"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 622633548,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on purchase flight",
+            "match": {
+              "location": "FlightbookingPageSteps.user_clicks_on_purchase_flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63205049,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "validate confirmation id on Confirmation Page",
+            "match": {
+              "location": "FlightbookingPageSteps.validate_confirmation_id_on_Confirmation_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Blazedemo application",
+    "description": "",
+    "id": "blazedemo-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/nidmishr/Documents/blaze/BlazedemoProject/src/test/java/features/blazedemo.feature"
+  }
+]

@@ -1,0 +1,9 @@
+Verify when user open url- https://blazedemo.com/ , Page should get loaded.
+Verify user is able to select from Departure City and dropdown list is displayed with City names as per the requirement.
+Verify user is able to select from Departure City and dropdown list is displayed with City names as per the requirement.
+Verify when user click on  Find Flights after entering valid Departure city and destination, user lands on Flight selection Page.
+Verify correct list of  flights details are displayed as per the requirement.
+Verify clicking on Choose the Flight will land the user to Passenger details Page.
+Verify user is able to fill information on Passenger details Page.
+Verify when user clicks on Purchase Flight then user lands on Confirmation Page.
+verify confirmation id is created when user lands on Confirmation Page.
